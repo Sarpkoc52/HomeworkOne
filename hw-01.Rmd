@@ -1,0 +1,68 @@
+---
+title: "Homework 1"
+author: "Mehmet Sarp Koç 19080405"
+---
+
+```{r global_options, include=FALSE}
+# Do not delete or modify this chunk.
+# We will cover chunk options later.
+# This is required for Question 7
+library(knitr)
+opts_chunk$set(fig.align="center", fig.height=4, fig.width=5.5)
+```
+
+**Question 1** With Markdown write a sentence that has one word in bold.
+
+It is a __cat__
+
+**Question 2** With Markdown write a sentence that has one word in italic.
+
+It is a _dog_
+
+**Question 3** With Markdown write a sentence that has one word in italic bold.
+
+It is a ***monkey***
+
+**Question 4** With Markdown write an unordered list with three items.
+
+- Pencil
+- Pen 
+- Eraser
+
+**Question 5** With Markdown write an ordered list with three items.
+
+1. Pencil
+2. Pen
+3. Eraser
+
+**Question 6** With Markdown give a link to your favorite webpage.
+
+[It is my favorite webpage](https://twitter.com/)
+
+**Question 7** With Markdown add a cat picture.
+
+![cat picture](cat-g249c03a86_640.jpg)
+
+**Question 8** With Rmarkdown insert a code chunk and give an example of a simple mathematical calculation in it.
+
+```{r}
+# Calculate the afor the sum of two exponential numbers 
+a <- 8^3
+b <- 2^7
+c <- a + b
+c
+```
+
+
+**Question 9** With $LaTeX$ write your favorite equation in block form.
+
+$$
+E = mc^2
+$$
+
+**Question 10** In a code chunk calculate 3 + 4.
+
+```{r}
+3+4
+```
+for `3 + 4`
